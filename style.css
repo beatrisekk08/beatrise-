@@ -1,88 +1,22 @@
-/* General reset */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    background-color: #333;
+header{
+    background-color: pink;
 }
-
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    border-bottom: 1px solid #444;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-header p {
-    margin: 5px 0 0;
-    font-size: 16px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #111;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-main {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 10px;
-}
-
-.text-block {
-    background-color: #444;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-.gallery {
+nav{
+    width: 50%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    grid-template-columns: auto auto;
 }
-
-.image {
-    text-align: center;
-    background-color: #555;
-    padding: 10px;
-    border: 1px solid #666;
+.active{
+    font-weight: bold;
+    background-color: lightcoral;
 }
-
-.image img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px;
+#main_container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
-
-.image p {
-    margin: 0;
-    font-size: 14px;
+#left{
+    background-color: plum;
 }
-
-footer {
-    text-align: center;
-    background-color: #111;
-    padding: 10px;
-    color: #ccc;
-    font-size: 14px;
+#right{
+    background-color: light palevioletred;
 }
