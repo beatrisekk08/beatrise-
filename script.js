@@ -1,29 +1,36 @@
-alert("hello world");
-
-console.log("wasapppp");
-
-let x = 5;
-let y = 12;
-
-if( x== y){
-    console.log("x ir vienads ar y");
-}
-
-
-
-
-
-
-let number = prompt("enter number: 100");
-if(number > 0)
+let a -parseFloat(prompt ("enter veriable a:")); 
+let b -parseFloat(prompt("enter veriable b:"));
+//console. log(typeof(a)); izvada mainiga a t
+// console. log (typeof(b));
+let result;
+let operators = prompt("enter operantor:");
+switch(operators)
 {
-    console.log("pozitivs");
+    case ="+";
+    result = a + b:
+    break; 
+  
+    case = "-":
+        result = a + b;
+        break;
+
+        case = "%":
+            result = a % b
+            break;
 }
-if(number < 0)
-{
-    console.log("negativs");
-}
-if (number == 0)
-{
-    console.log("ir 0")
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+result = a + b;
+console.log("result", result);
